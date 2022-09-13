@@ -1,5 +1,5 @@
 # Second draft of my personal portfolio site
-This is an updated version of my personal portfolio. I recreated it from the ground up. The original code had a few band-aid fixes that I've learned to avoid through further study since.
+This is an updated version of my personal portfolio. I recreated it from the ground up. The original code had a few band-aid fixes that I've learned to avoid through further study since. I've also added a lot more semantic HTML elements in place of generic divs.
 
 ## What did I learn on this project
 
