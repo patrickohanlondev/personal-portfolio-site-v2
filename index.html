@@ -1,56 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
-    <title>Patrick O'Hanlon</title>
-  </head>
-  <body>
-    <header>
-      <h1>Patrick O'Hanlon</h1>
-      <h2>Web-Developer</h2>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="projects.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400&display=swap"
+            rel="stylesheet"
+        />
+        <title>Patrick O'Hanlon</title>
+    </head>
+    <body>
+        <a href="index.html">
+            <header>
+                <h1>Patrick O'Hanlon</h1>
+                <h2>Web-Developer</h2>
+            </header></a
+        >
 
-    <nav>
-      <a href="projects.html"> <button>Projects</button></a>
-      <a href="https://github.com/patrickohanlondev" target="_blank">
-        <button>GitHub</button></a
-      >
-      <a href=""> <button>Contact / CV</button></a>
-    </nav>
-
-    <div class="about-container">
-      <article>
-        <p>Hey, thanks for checking out my portfolio!</p>
-        <p>I'm a web developer based in Belfast, Northern Ireland.</p>
-        <p>
-          I graduated from Ulster University with honors in Graphic Design and
-          Illustration. Now, I am currently pursuing a carreer in front-end web
-          development.
-        </p>
-        <p>
-          I love working in HTML, CSS, and JavaScript. I hope to explore the
-          space where design and functionality meet within front-end web
-          development.
-        </p>
-        <p>
-          My goal has always been to work within a close-knit team, the best
-          ideas are only achieved through collaboration.
-        </p>
-        <p>Let's work together some time.</p>
-      </article>
-      <div class="img-container">
-        <img src="images/myself.jpg" alt="photo of patrick" />
-      </div>
-    </div>
-  </body>
+        <nav>
+            <a href="projects.html"> <button>Projects</button></a>
+            <a href="https://github.com/patrickohanlondev" target="_blank">
+                <button>GitHub</button></a
+            >
+            <a href=""> <button>Contact / CV</button></a>
+        </nav>
+        <div class="grid-container">
+            <div class="project-grid">
+                <div class="project">
+                    <div class="project-thumbnail-container">
+                        <a
+                            href="https://patrickohanlondev.github.io/Films-watched-app/"
+                            ><img src="./images/thumb2.png" alt=""
+                        /></a>
+                    </div>
+                    <div class="project-detail-container">
+                        <p>
+                            I created this project as a learning exercise in
+                            vanilla JavaScript.
+                        </p>
+                        <p>
+                            I took advantage of the many resources outlining the
+                            fundamental design of a todo list app. Instead of
+                            creating a simple todo list I wanted this app to
+                            have a more focused goal, keeping track of films and
+                            TV show the user has watched.
+                        </p>
+                        <p>
+                            As my skill in JavaScript develops I plan to create
+                            a more fully featured version of this app complete
+                            with API integration, allowing for film artwork,
+                            release years and genres to be auto-populated.
+                        </p>
+                        <p>
+                            <a
+                                class="code-link"
+                                href="https://github.com/patrickohanlondev/Films-watched-app"
+                            >
+                                The code for this project can be viewed here.</a
+                            >
+                        </p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-thumbnail-container">
+                        <a
+                            href="https://patrickohanlondev.github.io/Illustration-portfolio/"
+                            ><img src="./images/thumb1.png" alt=""
+                        /></a>
+                    </div>
+                    <div class="project-detail-container">
+                        <p>
+                            This project is my own personal illustration
+                            portfolio. Creating this was an exercise in using
+                            plain HTML and CSS. Specificaly CSS grid and
+                            creating reusable CSS files as can be seen in the
+                            gallery view of each illustration project.
+                        </p>
+                        <p>
+                            Before getting into web development and front-end
+                            design, creating a website for my art was something
+                            I struggled with.
+                        </p>
+                        <p>
+                            Now, being able to create a website from scratch to
+                            share my work exactly how I want it to anyone with a
+                            web browser is very fulfilling.
+                        </p>
+                        <p>
+                            I plan on iterating on this project for a long time
+                            as creating art is something I plan to continue
+                            doing.
+                        </p>
+                        <p>
+                            <a
+                                class="code-link"
+                                href="https://github.com/patrickohanlondev/Illustration-portfolio"
+                            >
+                                The code for this project can be viewed here
+                                click here.</a
+                            >
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>.</footer>
+    </body>
 </html>
